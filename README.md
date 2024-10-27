@@ -74,11 +74,11 @@ Filmify es una API para gestionar películas, diseñada para facilitar la visual
 
 2. **Acceder a la API**:
 
-   Una vez que el servidor esté en funcionamiento, puedes acceder a la API en `http://localhost:3000/api`.
+   Una vez que el servidor esté en funcionamiento, puedes acceder a la API en `https://filmify-production.up.railway.app/api`.
 
 3. **Documentación de la API**:
 
-   La documentación de la API está disponible en `http://localhost:3000/api`, donde puedes explorar los endpoints y sus respectivas funcionalidades.
+   La documentación de la API está disponible en `https://filmify-production.up.railway.app/api`, donde puedes explorar los endpoints y sus respectivas funcionalidades.
 
 ## Scripts
 

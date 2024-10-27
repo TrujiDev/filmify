@@ -8,7 +8,7 @@ import { FilterMoviesDto } from './dto/filter-movies.dto';
 import { Movie } from './entities/movie.entity';
 import { ApiTags, ApiOperation, ApiResponse, ApiParam } from '@nestjs/swagger';
 
-@ApiTags('movies') // Agrupando las rutas relacionadas con películas
+@ApiTags('movies')
 @Controller('movies')
 export class MoviesController {
   constructor(

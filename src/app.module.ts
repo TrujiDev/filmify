@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { MoviesModule } from './movies/movies.module';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { Movie } from './movies/entities/movie.entity';
 
 @Module({
   imports: [
@@ -13,7 +14,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       username: process.env.PGUSER,
       password: process.env.PGPASSWORD,
       database: process.env.PGDATABASE,
-      entities: [__dirname + '/**/*.entity{.ts,.js}'],
+      entities: [Movie],
       synchronize: true,
       ssl: {
         rejectUnauthorized: false,
